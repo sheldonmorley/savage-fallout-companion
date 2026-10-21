@@ -1,0 +1,344 @@
+{
+  "id": "fallout-companion",
+  "title": "Savage Fallout: Fallout Companion",
+  "version": "2.8.4",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14.368"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "swade",
+        "type": "system",
+        "compatibility": {
+          "minimum": "5.0.0",
+          "verified": "6.0.3"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "swade-core-rules",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Sheldon Morley",
+      "email": "sheldon.morley@gmail.com",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "fallout-adversaries",
+      "label": "Fallout Adversaries",
+      "path": "packs/fallout-adversaries",
+      "type": "Actor",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fallout-ancestral-abilities",
+      "label": "Fallout Ancestral Abilities",
+      "path": "packs/fallout-ancestral-abilities",
+      "type": "Item",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fallout-ancestries",
+      "label": "Fallout Ancestries",
+      "path": "packs/fallout-ancestries",
+      "type": "Item",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fallout-armor",
+      "label": "Fallout Armor",
+      "path": "packs/fallout-armor",
+      "type": "Item",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fallout-armor-mods",
+      "label": "Fallout Armor Mods",
+      "path": "packs/fallout-armor-mods",
+      "type": "Item",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fallout-robot-mods",
+      "label": "Fallout Robot Mods",
+      "path": "packs/fallout-robot-mods",
+      "type": "Item",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "fallout-consumables",
+      "label": "Fallout Consumables",
+      "path": "packs/fallout-consumables",
+      "type": "Item",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fallout-crafting-materials",
+      "label": "Fallout Crafting Materials",
+      "path": "packs/fallout-crafting-materials",
+      "type": "Item",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fallout-edges",
+      "label": "Fallout Edges",
+      "path": "packs/fallout-edges",
+      "type": "Item",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fallout-equipment",
+      "label": "Fallout Equipment",
+      "path": "packs/fallout-equipment",
+      "type": "Item",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fallout-hindrances",
+      "label": "Fallout Hindrances",
+      "path": "packs/fallout-hindrances",
+      "type": "Item",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fallout-journals",
+      "label": "Fallout Journals",
+      "path": "packs/fallout-journals",
+      "type": "JournalEntry",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fallout-playlists",
+      "label": "Fallout Playlists",
+      "path": "packs/fallout-playlists",
+      "type": "Playlist",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fallout-rollable-tables",
+      "label": "Fallout Rollable Tables",
+      "path": "packs/fallout-rollable-tables",
+      "type": "RollTable",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fallout-scenes",
+      "label": "Fallout Scenes",
+      "path": "packs/fallout-scenes",
+      "type": "Scene",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fallout-skills",
+      "label": "Fallout Skills",
+      "path": "packs/fallout-skills",
+      "type": "Item",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fallout-weapons",
+      "label": "Fallout Weapons",
+      "path": "packs/fallout-weapons",
+      "type": "Item",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fallout-special-abilities",
+      "label": "Fallout Special Abilities",
+      "path": "packs/fallout-special-abilities",
+      "type": "Item",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fallout-weapon-mods",
+      "label": "Fallout Weapon Mods",
+      "path": "packs/fallout-weapon-mods",
+      "type": "Item",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fallout-macros",
+      "label": "Fallout Macros",
+      "path": "packs/fallout-macros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "fallout-workbenches",
+      "label": "Fallout Workbench Stations",
+      "path": "packs/fallout-workbenches",
+      "type": "Actor",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ],
+  "description": "<p>Savage Fallout: a Fallout setting companion for Savage Worlds Adventure Edition. Rules journals for every chapter, ancestries, Edges, Hindrances, skills, weapons and mods, armor and power armor, chems, food, gear, a full bestiary, and roll tables. Requires the SWADE system; the SWADE core rules and the Science Fiction Companion are referenced by page.</p>",
+  "flags": {},
+  "esmodules": [
+    "scripts/crafting.mjs",
+    "scripts/workbench.mjs",
+    "scripts/consumables.mjs",
+    "scripts/setup.mjs"
+  ],
+  "styles": [
+    "styles/workbench.css",
+    "styles/sheet.css"
+  ],
+  "packFolders": [
+    {
+      "name": "Savage Fallout",
+      "sorting": "m",
+      "color": "#293f5f",
+      "packs": [
+        "fallout-journals"
+      ],
+      "folders": [
+        {
+          "name": "Characters",
+          "sorting": "m",
+          "color": "#999b17",
+          "packs": [
+            "fallout-ancestries",
+            "fallout-ancestral-abilities",
+            "fallout-skills",
+            "fallout-edges",
+            "fallout-hindrances"
+          ]
+        },
+        {
+          "name": "Gear",
+          "sorting": "m",
+          "color": "#999b17",
+          "packs": [
+            "fallout-weapons",
+            "fallout-weapon-mods",
+            "fallout-armor",
+            "fallout-armor-mods",
+            "fallout-robot-mods",
+            "fallout-equipment",
+            "fallout-consumables",
+            "fallout-crafting-materials"
+          ]
+        },
+        {
+          "name": "Game Master",
+          "sorting": "m",
+          "color": "#999b17",
+          "packs": [
+            "fallout-adversaries",
+            "fallout-special-abilities",
+            "fallout-workbenches",
+            "fallout-rollable-tables",
+            "fallout-scenes",
+            "fallout-playlists",
+            "fallout-macros"
+          ]
+        }
+      ]
+    }
+  ],
+  "media": [
+    {
+      "type": "cover",
+      "url": "modules/fallout-companion/Assets/Artwork/scenes/landing-page/please-stand-by.webp"
+    }
+  ],
+  "url": "https://github.com/sheldonmorley/savage-fallout-companion",
+  "manifest": "https://raw.githubusercontent.com/sheldonmorley/savage-fallout-companion/main/module.json",
+  "download": "https://github.com/sheldonmorley/savage-fallout-companion/raw/main/releases/fallout-companion-2.8.4.zip"
+}
