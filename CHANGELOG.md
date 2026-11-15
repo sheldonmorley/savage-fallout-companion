@@ -2,6 +2,27 @@
 
 What changed in each version of the book. The version number matches the Foundry module release it shipped with.
 
+## 2.9.2 (November 15, 2026)
+
+- **Breaking Down Junk needs no roll.** With a workbench, a Toolkit, or a Multi-Tool, every 10 caps of Junk gives 5 Common and 1 Uncommon Resources in 30 minutes; a last part of 10 caps gives its share, rounded down. The Repair roll, its results table, the −2 for working without tools, and Tech Junk are gone. A new table in the rule shows what each hero gets, and a note explains when to sell Junk instead.
+- **New Edges: Scrapper and Improved Scrapper** (Converted Perks). A Scrapper (Novice, Repair d6+) gets an extra Uncommon per 10 caps of Junk, in half the time. Improved Scrapper (Seasoned, Scrapper) adds a Rare per 20 caps. Both are in the Edge Summary and the Edges compendium.
+- **Break Down Junk in the Workbench** (Foundry module only). A button in the Workbench, a *Break Down Junk* macro, and `SavageFallout.breakDownJunk()`: choose how much Junk to break down and any unwanted weapons, armor or gear to scrap at half price, and the Resources go on the sheet with Scrapper and Improved Scrapper applied. Worn gear, consumables, ammo, fusion cores and trade goods aren't offered. See *12a. Workbench (Foundry Crafting)*.
+
+## 2.9.1 (November 15, 2026)
+
+- **Scavenger Edge:** on a raise, a Scavenger now draws one extra loot card, which ignores the location's Max Loot Cards, instead of two cards for every card. The salvage is still doubled. The Edge and the Scavenging rules now say the same thing, and the Edge points to the right chapter.
+- **The book sticks to play at the table.** The PDF and Word file leave out notes that only apply in Foundry: the Foundry column of the chem Effect Vocabulary table, "in Foundry, roll the table" asides, and Foundry-only changelog entries. The module's journals keep them.
+- **Junk and trade goods sell at full value in The Stockpile** (Foundry module only), as Selling Salvage says, whatever the shop's usual buy-back rate.
+- **The Stockpile uses caps** (Foundry module only): if its wallet field and currency name aren't set, the Companion sets them to each character's caps.
+
+## 2.9.0 (November 15, 2026)
+
+- **Automated scavenging** (Foundry module only). Every search in the Scavenging rules can now run itself: the player makes the Notice or Survival roll, and the GM's client draws the loot cards, reads them on the Scavenging Loot tables, and adds the items, caps and Junk to the character. Degree, Tier, Scale, repeat searches, Scavenger, Scrounger, Investigator, Jokers, Complications and locked containers all follow the chapter. See the new *12b. Scavenging (Foundry)* journal.
+- **Three ways to place a search:** Scavenge Node tokens (a new compendium with 20 stock locations, from a footlocker to a military depot), a script for Monk's Active Tiles or Regions, and `@Scavenge[...]` buttons in journals. Any location can read its loot from a roll table instead, such as the Winter Wasteland table.
+- **New items:** Junk (tracked by its value in caps, 1 cap and 1 lb per unit) and four trade goods named in the loot tables: Locket, Silver Pocketwatch, Pre-War Money and Pre-War Valuables.
+- **New macros:** *Restock Scavenging (This Scene)* and *Scavenge Here*.
+- **New setting:** Whisper scavenging results to the GM and the searching player.
+
 ## 2.8.4 (October 19, 2026)
 
 - Foundry module only: the Workbench remembers the last character token you selected, so clicking a workbench token on the map no longer loses your crafter. As GM with no player-owned characters, you can pick any character to craft with.

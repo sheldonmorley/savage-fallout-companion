@@ -1,7 +1,7 @@
 {
   "id": "fallout-companion",
   "title": "Savage Fallout: Fallout Companion",
-  "version": "2.8.4",
+  "version": "2.9.2",
   "compatibility": {
     "minimum": "13",
     "verified": "14.368"
@@ -265,19 +265,35 @@
         "ASSISTANT": "OWNER"
       },
       "flags": {}
+    },
+    {
+      "name": "fallout-scavenge-nodes",
+      "label": "Fallout Scavenge Nodes",
+      "path": "packs/fallout-scavenge-nodes",
+      "type": "Actor",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     }
   ],
-  "description": "<p>Savage Fallout: a Fallout setting companion for Savage Worlds Adventure Edition. Rules journals for every chapter, ancestries, Edges, Hindrances, skills, weapons and mods, armor and power armor, chems, food, gear, a full bestiary, and roll tables. Requires the SWADE system; the SWADE core rules and the Science Fiction Companion are referenced by page.</p>",
+  "description": "<p>Savage Fallout: a Fallout setting companion for Savage Worlds Adventure Edition. Rules journals for every chapter, ancestries, Edges, Hindrances, skills, weapons and mods, armor and power armor, chems, food, gear, a full bestiary,, roll tables, a Workbench for crafting, and automated scavenging. Requires the SWADE system; the SWADE core rules and the Science Fiction Companion are referenced by page.</p>",
   "flags": {},
   "esmodules": [
     "scripts/crafting.mjs",
     "scripts/workbench.mjs",
     "scripts/consumables.mjs",
-    "scripts/setup.mjs"
+    "scripts/setup.mjs",
+    "scripts/scavenge.mjs",
+    "scripts/stockpile.mjs",
+    "scripts/salvage.mjs"
   ],
   "styles": [
     "styles/workbench.css",
-    "styles/sheet.css"
+    "styles/sheet.css",
+    "styles/scavenge.css"
   ],
   "packFolders": [
     {
@@ -323,6 +339,7 @@
             "fallout-adversaries",
             "fallout-special-abilities",
             "fallout-workbenches",
+            "fallout-scavenge-nodes",
             "fallout-rollable-tables",
             "fallout-scenes",
             "fallout-playlists",
@@ -340,5 +357,5 @@
   ],
   "url": "https://github.com/sheldonmorley/savage-fallout-companion",
   "manifest": "https://raw.githubusercontent.com/sheldonmorley/savage-fallout-companion/main/module.json",
-  "download": "https://github.com/sheldonmorley/savage-fallout-companion/raw/main/releases/fallout-companion-2.8.4.zip"
+  "download": "https://github.com/sheldonmorley/savage-fallout-companion/raw/main/releases/fallout-companion-2.9.2.zip"
 }
