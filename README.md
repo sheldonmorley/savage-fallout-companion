@@ -33,6 +33,8 @@ Foundry will tell you when a new version is out.
 
 - Compendiums for every ancestry, Edge, Hindrance, weapon, armor piece, mod, chem, food item, creature and roll table, plus a journal for every chapter.
 - A **Workbench** for crafting and installing mods: open it from the token controls or by double-clicking a workbench token on the map.
+- **Automated scavenging:** drop a Scavenge Node token on a map (20 stock locations, from a footlocker to a military depot), put an `@Scavenge[...]` button in a journal, or call it from a tile or region. The player rolls; the GM's client draws the loot cards and adds the items, caps and Junk to their character. See the *12b. Scavenging (Foundry)* journal.
+- **Works with The Stockpile** shop module: shops use each character's caps, and Junk and trade goods sell at full value.
 
 ## Follow along
 
