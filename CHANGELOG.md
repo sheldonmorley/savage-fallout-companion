@@ -10,6 +10,7 @@ What changed in each version of the book. The version number matches the Foundry
   - **Mods by drag and drop** on the Weapons Workbench, Armor Workbench and Power Armor Station: pick an item, then drag a mod onto its slot, or drag it back off to take it out (each still a Repair roll). Power armor shows its Mod slots as a meter. The Robot Workbench keeps its robot and Automatron panel, restyled.
   - **The C.A.M.P.** replaces the no-station view: cooking and Break Down Junk anywhere, plus mods at −2 with a Deluxe Toolkit.
   - New bench art for all six benches and the C.A.M.P. See *12a. Workbench (Foundry Crafting)*.
+- **Chems, food and drink apply their effects** (Foundry module only). Using one now puts its effect (Buffout's Strength and Vigor, Mentats' Smarts, a meal's perk) on the character who used it, for its duration, and the chat card says what's active. Before, SWADE only offered the effect on the chat card to drag onto a token. A second dose refreshes the effect instead of stacking, and nothing doubles up if SWADE or a drag already applied it.
 
 ## 2.9.4 (November 15, 2026)
 
