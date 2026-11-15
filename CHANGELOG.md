@@ -2,6 +2,12 @@
 
 What changed in each version of the book. The version number matches the Foundry module release it shipped with.
 
+## 2.9.2 (November 15, 2026)
+
+- **Breaking Down Junk needs no roll.** With a workbench, a Toolkit, or a Multi-Tool, every 10 caps of Junk gives 5 Common and 1 Uncommon Resources in 30 minutes; a last part of 10 caps gives its share, rounded down. The Repair roll, its results table, the −2 for working without tools, and Tech Junk are gone. A new table in the rule shows what each hero gets, and a note explains when to sell Junk instead.
+- **New Edges: Scrapper and Improved Scrapper** (Converted Perks). A Scrapper (Novice, Repair d6+) gets an extra Uncommon per 10 caps of Junk, in half the time. Improved Scrapper (Seasoned, Scrapper) adds a Rare per 20 caps. Both are in the Edge Summary and the Edges compendium.
+- **Break Down Junk in the Workbench** (Foundry module only). A button in the Workbench, a *Break Down Junk* macro, and `SavageFallout.breakDownJunk()`: choose how much Junk to break down and any unwanted weapons, armor or gear to scrap at half price, and the Resources go on the sheet with Scrapper and Improved Scrapper applied. Worn gear, consumables, ammo, fusion cores and trade goods aren't offered. See *12a. Workbench (Foundry Crafting)*.
+
 ## 2.9.1 (November 15, 2026)
 
 - **Scavenger Edge:** on a raise, a Scavenger now draws one extra loot card, which ignores the location's Max Loot Cards, instead of two cards for every card. The salvage is still doubled. The Edge and the Scavenging rules now say the same thing, and the Edge points to the right chapter.

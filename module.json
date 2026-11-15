@@ -1,7 +1,7 @@
 {
   "id": "fallout-companion",
   "title": "Savage Fallout: Fallout Companion",
-  "version": "2.9.1",
+  "version": "2.9.2",
   "compatibility": {
     "minimum": "13",
     "verified": "14.368"
@@ -287,7 +287,8 @@
     "scripts/consumables.mjs",
     "scripts/setup.mjs",
     "scripts/scavenge.mjs",
-    "scripts/stockpile.mjs"
+    "scripts/stockpile.mjs",
+    "scripts/salvage.mjs"
   ],
   "styles": [
     "styles/workbench.css",
@@ -356,5 +357,5 @@
   ],
   "url": "https://github.com/sheldonmorley/savage-fallout-companion",
   "manifest": "https://raw.githubusercontent.com/sheldonmorley/savage-fallout-companion/main/module.json",
-  "download": "https://github.com/sheldonmorley/savage-fallout-companion/raw/main/releases/fallout-companion-2.9.1.zip"
+  "download": "https://github.com/sheldonmorley/savage-fallout-companion/raw/main/releases/fallout-companion-2.9.2.zip"
 }
