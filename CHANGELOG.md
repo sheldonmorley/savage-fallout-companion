@@ -5,6 +5,7 @@ What changed in each version of the book. The version number matches the Foundry
 ## 2.9.1 (November 15, 2026)
 
 - **Scavenger Edge:** on a raise, a Scavenger now draws one extra loot card, which ignores the location's Max Loot Cards, instead of two cards for every card. The salvage is still doubled. The Edge and the Scavenging rules now say the same thing, and the Edge points to the right chapter.
+- **The book sticks to play at the table.** The PDF and Word file leave out notes that only apply in Foundry: the Foundry column of the chem Effect Vocabulary table, "in Foundry, roll the table" asides, and Foundry-only changelog entries. The module's journals keep them.
 - **Junk and trade goods sell at full value in The Stockpile** (Foundry module only), as Selling Salvage says, whatever the shop's usual buy-back rate.
 - **The Stockpile uses caps** (Foundry module only): if its wallet field and currency name aren't set, the Companion sets them to each character's caps.
 
