@@ -2,6 +2,10 @@
 
 What changed in each version of the book. The version number matches the Foundry module release it shipped with.
 
+## 2.9.6 (November 15, 2026)
+
+- **Fixed the Workbench's title bar** (Foundry module only): its close and other buttons showed empty boxes instead of their icons.
+
 ## 2.9.5 (November 15, 2026)
 
 - **A new Workbench** (Foundry module only). Each bench opens on its own art, with its own recipes and nothing else, since crafting them needs that bench.
