@@ -1,7 +1,7 @@
 {
   "id": "fallout-companion",
   "title": "Savage Fallout: Fallout Companion",
-  "version": "2.9.3",
+  "version": "2.9.4",
   "compatibility": {
     "minimum": "13",
     "verified": "14.368"
@@ -357,5 +357,5 @@
   ],
   "url": "https://github.com/sheldonmorley/savage-fallout-companion",
   "manifest": "https://raw.githubusercontent.com/sheldonmorley/savage-fallout-companion/main/module.json",
-  "download": "https://github.com/sheldonmorley/savage-fallout-companion/releases/download/v2.9.3/fallout-companion-2.9.3.zip"
+  "download": "https://github.com/sheldonmorley/savage-fallout-companion/releases/download/v2.9.4/fallout-companion-2.9.4.zip"
 }
