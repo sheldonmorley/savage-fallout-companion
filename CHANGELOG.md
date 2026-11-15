@@ -2,6 +2,15 @@
 
 What changed in each version of the book. The version number matches the Foundry module release it shipped with.
 
+## 2.9.5 (November 15, 2026)
+
+- **A new Workbench** (Foundry module only). Each bench opens on its own art, with its own recipes and nothing else, since crafting them needs that bench.
+  - **Pick a recipe** from a search box: type part of a name, or open the list. Dots show what's ready (green), short of materials (red), Edge-locked (grey) or rare and unlearned (gold).
+  - **The recipe card** shows the item, its ingredients against what the character carries, the result, the roll with its modifiers, the time and any Edge, with **Craft** at the bottom. Click to choose between alternative ingredients (Psycho's Stimpak or Diluted Stimpak). The GM teaches and forgets rare recipes from the card.
+  - **Mods by drag and drop** on the Weapons Workbench, Armor Workbench and Power Armor Station: pick an item, then drag a mod onto its slot, or drag it back off to take it out (each still a Repair roll). Power armor shows its Mod slots as a meter. The Robot Workbench keeps its robot and Automatron panel, restyled.
+  - **The C.A.M.P.** replaces the no-station view: cooking and Break Down Junk anywhere, plus mods at −2 with a Deluxe Toolkit.
+  - New bench art for all six benches and the C.A.M.P. See *12a. Workbench (Foundry Crafting)*.
+
 ## 2.9.4 (November 15, 2026)
 
 - **The Workbench shows current item art** (Foundry module only). It read each recipe's picture from a copy saved when the recipe list was made, so 154 recipes showed old or missing art after the items were updated. It now reads the art from the compendiums when it opens, including add-on recipes, so new art shows up there automatically.
