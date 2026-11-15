@@ -2,6 +2,10 @@
 
 What changed in each version of the book. The version number matches the Foundry module release it shipped with.
 
+## 2.9.4 (November 15, 2026)
+
+- **The Workbench shows current item art** (Foundry module only). It read each recipe's picture from a copy saved when the recipe list was made, so 154 recipes showed old or missing art after the items were updated. It now reads the art from the compendiums when it opens, including add-on recipes, so new art shows up there automatically.
+
 ## 2.9.3 (November 15, 2026)
 
 - **The art ships with the module** (Foundry module only). Item art, adversary art and tokens, scene maps, tiles, skill icons and the radio and weapon audio are now in the download, so installing or updating from the manifest gives you everything, not just the rules. The download is about 200 MB and is published as a GitHub Release.
