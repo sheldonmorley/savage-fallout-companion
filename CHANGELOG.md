@@ -2,6 +2,11 @@
 
 What changed in each version of the book. The version number matches the Foundry module release it shipped with.
 
+## 2.9.3 (November 15, 2026)
+
+- **The art ships with the module** (Foundry module only). Item art, adversary art and tokens, scene maps, tiles, skill icons and the radio and weapon audio are now in the download, so installing or updating from the manifest gives you everything, not just the rules. The download is about 200 MB and is published as a GitHub Release.
+- **Three adversary tokens fixed** (Foundry module only): the Assaultron, Bloodbug and Eyebot pointed at token files with the wrong capitalization, which broke them on The Forge and other Linux hosts.
+
 ## 2.9.2 (November 15, 2026)
 
 - **Breaking Down Junk needs no roll.** With a workbench, a Toolkit, or a Multi-Tool, every 10 caps of Junk gives 5 Common and 1 Uncommon Resources in 30 minutes; a last part of 10 caps gives its share, rounded down. The Repair roll, its results table, the −2 for working without tools, and Tech Junk are gone. A new table in the rule shows what each hero gets, and a note explains when to sell Junk instead.

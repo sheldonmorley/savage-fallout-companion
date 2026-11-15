@@ -10,7 +10,7 @@ It covers character creation (ancestries like ghouls, super mutants, Gen 3 synth
 |---|---|
 | [`docs/Savage_Fallout_Companion.pdf`](docs/Savage_Fallout_Companion.pdf) | The complete book (about 190 pages) |
 | [`docs/Savage_Fallout_Companion_for_Google_Docs.docx`](docs/Savage_Fallout_Companion_for_Google_Docs.docx) | The same book as a Word file you can open in Google Docs |
-| [`releases/`](releases/) | Foundry module zips, one per version |
+| [`releases/`](releases/) | Foundry module zips up to 2.9.2. From 2.9.3, which includes the art, each version is a download on the [Releases](https://github.com/sheldonmorley/savage-fallout-companion/releases) page |
 | [`module.json`](module.json) | The Foundry install manifest |
 | [`CHANGELOG.md`](CHANGELOG.md) | What changed in each version |
 
