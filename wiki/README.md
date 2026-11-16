@@ -1,0 +1,1 @@
+These pages are published to the project's [GitHub wiki](https://github.com/sheldonmorley/savage-fallout-companion/wiki) by `.github/workflows/wiki.yml` whenever they change on `main`. Edit them here, not in the wiki: edits made in the wiki itself are overwritten on the next sync.
