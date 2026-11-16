@@ -2,6 +2,14 @@
 
 What changed in each version of the book. The version number matches the Foundry module release it shipped with.
 
+## 2.11.0 (November 15, 2026)
+
+- **The Pip-Boy gets MAP and RADIO** (Foundry module only), on the DATA tab.
+  - **MAP:** WORLD shows a scene the GM picks in the settings (the Companion ships no map, so each campaign uses its own); LOCAL shows the scene you're on. Drag to pan, scroll to zoom, and your token shows where you are. The scene's map pins are the markers: a pin's journal entry at Limited shows an undiscovered outline, at Observer the found icon with an Open button, so the GM reveals locations by raising permissions.
+  - **62 Pip-Boy location icons** (with found and undiscovered versions), plus quest destination, signal source and location pins, join Foundry's map-pin icon list. Icons by the League of Raconteur Explorers, used under licence.
+  - **RADIO:** the Companion's Fallout Radio and any playlists in a world folder named *Radio*. Tuning in plays on your computer only, shuffled, with its own volume, and keeps going with the Pip-Boy closed. Players can't play to the table; the GM can, as an ordinary playlist.
+  - See *02a. Pip-Boy Sheet (Foundry)*.
+
 ## 2.10.0 (November 15, 2026)
 
 - **A Pip-Boy character sheet** (Foundry module only). Open a character's sheet settings and choose *Pip-Boy*, or run `SavageFallout.openPipBoy()`. It reads the character live:
