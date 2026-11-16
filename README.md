@@ -44,6 +44,7 @@ https://www.facebook.com/share/g/19sfzLopoU/
 
 ## Credits
 
+- Designed and written by **Sheldon Morley**. The rules, setting, design decisions and playtesting are his; the Foundry module's code was built with the help of AI coding tools.
 - Pip-Boy frame art by **ABBSTractGraphics**, used with permission.
 - Pip-Boy map location icons by the **League of Raconteur Explorers** (LORE), used under licence.
 - Pip-Boy screen font: Share Tech Mono by Carrois Type Design, under the SIL Open Font License (`fonts/ShareTechMono-OFL.txt`).
