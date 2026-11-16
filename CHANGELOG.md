@@ -2,6 +2,11 @@
 
 What changed in each version of the book. The version number matches the Foundry module release it shipped with.
 
+## 2.11.1 (November 16, 2026)
+
+- **The Pip-Boy shows every item's own art** (Foundry module only), tinted green, at the top of its detail panel: mods, recipes and gear that had no picture now have one, and it's always the current art. Pictures copied into item descriptions are no longer shown there.
+- Orange Mentats' description showed the plain Mentats picture; fixed.
+
 ## 2.11.0 (November 16, 2026)
 
 - **Crafting Edges no longer grant a free schematic or a signature mod.** Taking the Edge already teaches all of its recipes, so the extra schematic did nothing. Gun Nut, Armorer, Blacksmith, Science! and the three Improved Edges are updated in the book, the Edges and the journals.
