@@ -33,7 +33,7 @@ Foundry will tell you when a new version is out.
 
 - Compendiums for every ancestry, Edge, Hindrance, weapon, armor piece, mod, chem, food item, creature and roll table, plus a journal for every chapter.
 - A **Workbench** for crafting and installing mods: double-click a workbench token on the map to open that bench, pick a recipe and craft it from its card, and drag mods onto weapons and armor. Away from a bench, the C.A.M.P. handles cooking and **Break Down Junk** (Junk and unwanted gear into crafting Resources, no roll needed).
-- A **Pip-Boy character sheet:** pick it in a character's sheet settings. STATS, ITEMS and DATA on working knobs, a rad gauge that follows Rad Fatigue, a dial for the sub-tabs, rolls, equipping, chems that apply their effects, and quests and notes from shared journals. See the *02a. Pip-Boy Sheet (Foundry)* journal.
+- A **Pip-Boy character sheet:** pick it in a character's sheet settings. STATS, ITEMS and DATA on working knobs, a rad gauge that follows Rad Fatigue, a dial for the sub-tabs, rolls, equipping, chems that apply their effects, quests and notes from shared journals, a map whose markers appear as the GM reveals them, and a radio only you can hear. See the *02a. Pip-Boy Sheet (Foundry)* journal.
 - **Automated scavenging:** drop a Scavenge Node token on a map (20 stock locations, from a footlocker to a military depot), put an `@Scavenge[...]` button in a journal, or call it from a tile or region. The player rolls; the GM's client draws the loot cards and adds the items, caps and Junk to their character. See the *12b. Scavenging (Foundry)* journal.
 - **Works with The Stockpile** shop module: shops use each character's caps, and Junk and trade goods sell at full value.
 
@@ -45,6 +45,7 @@ https://www.facebook.com/share/g/19sfzLopoU/
 ## Credits
 
 - Pip-Boy frame art by **ABBSTractGraphics**, used with permission.
+- Pip-Boy map location icons by the **League of Raconteur Explorers** (LORE), used under licence.
 - Pip-Boy screen font: Share Tech Mono by Carrois Type Design, under the SIL Open Font License (`fonts/ShareTechMono-OFL.txt`).
 
 ## Legal
