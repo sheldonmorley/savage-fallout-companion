@@ -2,6 +2,16 @@
 
 What changed in each version of the book. The version number matches the Foundry module release it shipped with.
 
+## 2.10.0 (November 15, 2026)
+
+- **A Pip-Boy character sheet** (Foundry module only). Open a character's sheet settings and choose *Pip-Boy*, or run `SavageFallout.openPipBoy()`. It reads the character live:
+  - **STATS:** Wounds, Fatigue and Rad Fatigue as clickable boxes, conditions, active effects with their time left, and Pace, Parry, Toughness and Bennies; attributes and skills to roll; Edges, Hindrances and abilities.
+  - **ITEMS:** Weapons, Apparel, Aid, Misc and Ammo, with weight against the load limit. Attack, Equip, Use (chems and food apply their effects) and Open.
+  - **DATA:** Quests and Notes from shared journals in the folders named *Quests* and *Notes*; a *Completed* subfolder marks quests done.
+  - The three knobs switch tabs, the left dial steps through sub-tabs (click or scroll), the rad gauge follows Rad Fatigue, and the controls make Pip-Boy sounds. It scales with the window. Clear the frame setting for a plain screen instead.
+  - Frame art by ABBSTractGraphics, used with permission. See *02a. Pip-Boy Sheet (Foundry)*.
+- **Rad Fatigue is marked** (Foundry module only). The character keeps a count of how many Fatigue levels came from radiation, as the Radiation rules ask; the Pip-Boy sheet shows and sets it, and RadAway (and Diluted RadAway) now clear a marked level.
+
 ## 2.9.6 (November 15, 2026)
 
 - **Fixed the Workbench's title bar** (Foundry module only): its close and other buttons showed empty boxes instead of their icons.
