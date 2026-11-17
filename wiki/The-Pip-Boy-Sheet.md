@@ -21,6 +21,7 @@ With the **Pip-Boy frame folder** setting cleared, the sheet draws a plain green
 
 - **Status**: Wounds, Fatigue and Rads as rows of boxes. Click a box to set the track to that level; click the last filled box to clear it. Also conditions (Shaken and so on), active effects with the time left, and Pace, Parry, Toughness and Bennies.
 - **Rads** counts the character's rads. Each one takes a Wound box from the right of the Wounds row, shown red. RadAway removes one. For Extras, a rad is a marked Fatigue level instead.
+- **The figure** on the right shows the character's own portrait, tinted green (full-body portraits look best; stock icons get an outline figure). Six readouts around it show the armor worn on the head, arms, torso and legs, with the bonus of the best equipped piece. Hover a readout to see every piece.
 - **Attributes** and **Skills**: pick one and click **Roll**.
 - **Edges**: Edges, Hindrances and ancestry abilities, with their full text.
 

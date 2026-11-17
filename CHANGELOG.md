@@ -2,6 +2,10 @@
 
 What changed in each version of the book. The version number matches the Foundry module release it shipped with.
 
+## 2.12.1 (November 17, 2026)
+
+- **The Pip-Boy's STATUS page gets a figure** (Foundry module only). It shows the character's own portrait, tinted green; full-body portraits look best, and characters still on a stock icon get an outline figure. Around it, six readouts show the armor worn on the head, arms, torso and legs: the best equipped piece and its bonus, with every piece listed when you hover. They update as gear is equipped or removed.
+
 ## 2.12.0 (November 16, 2026)
 
 - **Radiation is now rads.** A failed radiation roll gives a **rad**, marked in a Wound box from the far end of the track. Rads give no penalty, but each one leaves room for one less Wound. Rest, healing and Stimpaks never remove them; RadAway and the other treatments do. This replaces Rad Fatigue, which shared the Fatigue track, made each later roll harder, and stacked with hunger and heat.
