@@ -2,6 +2,11 @@
 
 What changed in each version of the book. The version number matches the Foundry module release it shipped with.
 
+## 2.12.2 (November 17, 2026)
+
+- **Pip-Boy map pins show up again** (Foundry module only). Foundry's own styling shrank the pin icons to nothing, so pins were on the map but invisible. Fixed.
+- The Pip-Boy map now reads scene backgrounds the Foundry 14 way (from the scene's level), so it won't break when Foundry drops the old way, and it places pins correctly on scenes with padding or an offset background. Pins it has to skip are now noted in the browser console with the reason.
+
 ## 2.12.1 (November 17, 2026)
 
 - **The Pip-Boy's STATUS page gets a figure** (Foundry module only). It shows the character's own portrait, tinted green; full-body portraits look best, and characters still on a stock icon get an outline figure. Around it, six readouts show the armor worn on the head, arms, torso and legs: the best equipped piece and its bonus, with every piece listed when you hover. They update as gear is equipped or removed.
