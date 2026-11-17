@@ -2,6 +2,23 @@
 
 What changed in each version of the book. The version number matches the Foundry module release it shipped with.
 
+## 2.12.0 (November 16, 2026)
+
+- **Radiation is now rads.** A failed radiation roll gives a **rad**, marked in a Wound box from the far end of the track. Rads give no penalty, but each one leaves room for one less Wound. Rest, healing and Stimpaks never remove them; RadAway and the other treatments do. This replaces Rad Fatigue, which shared the Fatigue track, made each later roll harder, and stacked with hunger and heat.
+- **Radiation Sickness:** a rad that fills a box past the end of the track leaves the hero Incapacitated (not Bleeding Out) until treated. Each day untreated, a Vigor roll; failure means a Breaking Point roll, and a Critical Failure is fatal.
+- **Breaking Point** now comes at 2 rads, with another roll for each rad after that.
+- **Extras** take each rad as a level of Fatigue that rest doesn't remove, and never reach the Breaking Point.
+- **Irradiated food and water:** the daily Vigor roll is now at +1 (0 if you had a lot).
+- **Chosen of Atom:** your first rad takes up no Wound box (it still counts for the Breaking Point). **Rad Intolerant:** a failure gives 2 rads (3 on a Critical Failure).
+- Every Edge, Hindrance, ancestry, food, chem, weapon, robot mod and bestiary entry now says rads.
+- **In Foundry** (module only):
+  - Wild Cards keep a rad count and a *Rads* effect that lowers their maximum Wounds, so SWADE's own Incapacitation still works. Reaching 2 rads, and each rad after, posts a Breaking Point reminder; overflowing the track applies Radiation Sickness.
+  - The standard SWADE sheet gets a **Rads** counter beside Wounds, with + and − buttons.
+  - The Pip-Boy shows rads as red boxes on the Wounds row, with a Rads row to set them.
+  - RadAway, Diluted RadAway, Brahmin Milk, Mutant Hound Chops and the Refreshing Beverage remove rads when used.
+  - On first load, the GM's client turns each character's marked Rad Fatigue from 2.11 or earlier into rads.
+  - Macros: `SavageFallout.addRads`, `removeRad`, `setRads` and `radsOf`.
+
 ## 2.11.1 (November 16, 2026)
 
 - **The Pip-Boy shows every item's own art** (Foundry module only), tinted green, at the top of its detail panel: mods, recipes and gear that had no picture now have one, and it's always the current art. Pictures copied into item descriptions are no longer shown there.

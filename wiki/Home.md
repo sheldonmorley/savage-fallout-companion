@@ -16,7 +16,7 @@ The book is the game; the module is the game on autopilot. Nothing in the module
 - [[The Pip-Boy Sheet]]: your character on a working Pip-Boy.
 - [[Workbench and Crafting]]: making gear, chems, food and mods.
 - [[Scavenging]]: searching the wasteland.
-- [[Chems, Radiation and Survival]]: what happens when you use things, and Rad Fatigue.
+- [[Chems, Radiation and Survival]]: what happens when you use things, and rads.
 
 **Game Masters**
 - [[Installation and Updating]]

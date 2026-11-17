@@ -23,6 +23,15 @@ SavageFallout.openPipBoy({ tab: "data" });        // "stat", "inv" or "data"
 SavageFallout.openPipBoy({ actor: someActor });
 ```
 
+### Rads
+
+```js
+SavageFallout.radsOf(actor);          // how many rads
+SavageFallout.addRads(actor, 1);      // add rads (Wild Cards: Wound boxes; Extras: marked Fatigue)
+SavageFallout.removeRad(actor);       // remove one, as RadAway does
+SavageFallout.setRads(actor, 0);      // set the count
+```
+
 ### Workbench
 
 ```js

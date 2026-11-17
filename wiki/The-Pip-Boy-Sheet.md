@@ -11,7 +11,7 @@ An alternate character sheet that shows your character on a working Pip-Boy. It 
 
 - **Three knobs** under the screen switch between **STATS**, **ITEMS** and **DATA**. The one in use lights up.
 - **The dial** on the left steps through the sub-tabs. Click it, or scroll over it. The labels along the bottom of the screen work too.
-- **The rad gauge** at the top left follows your Rad Fatigue.
+- **The rad gauge** at the top left follows your rads.
 - The window can be resized and everything scales with it.
 - Clicks make Pip-Boy sounds at your interface volume. Turn them off in the module settings (each player chooses for themselves).
 
@@ -19,8 +19,8 @@ With the **Pip-Boy frame folder** setting cleared, the sheet draws a plain green
 
 ## STATS
 
-- **Status**: Wounds, Fatigue and Rad Fatigue as rows of boxes. Click a box to set the track to that level; click the last filled box to clear it. Also conditions (Shaken and so on), active effects with the time left, and Pace, Parry, Toughness and Bennies.
-- **Rad Fatigue** marks which Fatigue levels came from radiation, as the Radiation rules ask. Marked levels show hatched on the Fatigue row. Marking Rad Fatigue adds the Fatigue too. RadAway removes a marked level; anything else that lowers Fatigue takes the mark down with it.
+- **Status**: Wounds, Fatigue and Rads as rows of boxes. Click a box to set the track to that level; click the last filled box to clear it. Also conditions (Shaken and so on), active effects with the time left, and Pace, Parry, Toughness and Bennies.
+- **Rads** counts the character's rads. Each one takes a Wound box from the right of the Wounds row, shown red. RadAway removes one. For Extras, a rad is a marked Fatigue level instead.
 - **Attributes** and **Skills**: pick one and click **Roll**.
 - **Edges**: Edges, Hindrances and ancestry abilities, with their full text.
 

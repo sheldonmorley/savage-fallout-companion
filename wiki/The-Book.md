@@ -18,7 +18,7 @@ The module carries the same text as journals (**Fallout Journals** compendium), 
 10. **Chems, Food and Drink**: effects, addiction, the chem cocktail limit.
 11. **Equipment**
 12. **Scavenging and Crafting**: searching with loot cards, breaking down Junk, workbenches, recipes, mods.
-13. **Radiation and Survival**: Rad Fatigue on the ordinary Fatigue track.
+13. **Radiation and Survival**: rads that take up room on the Wound track.
 14. **Robots and Companions**
 15. **Factions and the Wasteland**
 16. **Bestiary**
@@ -28,7 +28,7 @@ Appendix: **Changelog**, listing every rules change by version.
 
 ## Rules at a glance
 
-- **Radiation** uses the Fatigue track. Levels that come from radiation are marked as Rad Fatigue; only RadAway and other treatments remove those.
+- **Radiation** gives rads, which take up Wound boxes but give no penalty. Only RadAway and other treatments remove them. At 2 rads you hit the Breaking Point and may mutate.
 - **Scavenging**: a Notice roll; success finds salvage (Junk), each raise draws a loot card, read on the Scavenging Loot tables by suit.
 - **Junk** breaks down into Resources (Common, Uncommon, Rare) with no roll: 5 Common and 1 Uncommon per 10 caps, at a workbench or with tools.
 - **Crafting** happens at the right bench with a skill roll modified by Complexity. Crafting Edges (Gun Nut, Blacksmith, Armorer, Chemist, Science!, Robotics Expert) unlock their recipes and give +2.
