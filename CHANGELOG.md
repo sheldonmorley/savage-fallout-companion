@@ -2,6 +2,18 @@
 
 What changed in each version of the book. The version number matches the Foundry module release it shipped with.
 
+## 2.13.0 (November 17, 2026)
+
+- **Weapons line up with SWADE.** Where a weapon has a SWADE or Science Fiction Companion counterpart, it now uses those stats. The **Combat Shotgun** is drum-fed like SWADE's Streetsweeper: 12 shots, Min Str d6, 10 lbs. The **Combat Knife** is Str+d4, like SWADE's survival knife.
+- **Inaccurate is gone.** It wasn't a SWADE quality. The Submachine Gun, Gamma Gun and Institute Laser lose it.
+- **Weapon mods that removed Inaccurate do something else:** Comfort Grip, +1 Shooting at Short Range; Full Stock, +1 Shooting at Medium Range; Marksman's Stock, +1 Shooting at Long Range; Sharpshooter's Grip, +1 Shooting when Aiming; Compensator, −2 Recoil; Gyro-Compensating Lens, ignore 2 points of Range penalties when Aiming. The Automatic Receiver's drawback is now Range −1 step.
+- **Two Hands** matches SWADE: one-handed use is at −4 and loses Reach and Parry bonuses, but the wielder keeps full Strength for damage. The **Spear** gets Parry +1 only when used two-handed, and the **Pool Cue** gains Parry +1.
+- **Revolver** is now a defined weapon quality: revolvers can't take Magazine mods.
+- **In Foundry** (module only):
+  - Every weapon item uses one entry format: type and skill, a short description, the stats, Notes, Special rules, the Mods it takes (worked out from the module's own mod data) and how it is built and repaired, with the qualities it uses defined underneath.
+  - The Weapons chapter journal gives every weapon the same entry under its table, and lists Breaker (the Sledgehammer and Super Sledge now use it) and Revolver among the qualities. A design note explains that energy weapons follow Savage Fallout's own progression rather than SWADE's laser tables.
+  - Adversaries and the Mister Handy carry the updated weapons.
+
 ## 2.12.2 (November 17, 2026)
 
 - **Pip-Boy map pins show up again** (Foundry module only). Foundry's own styling shrank the pin icons to nothing, so pins were on the map but invisible. Fixed.
