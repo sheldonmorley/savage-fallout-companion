@@ -2,16 +2,22 @@
 
 What changed in each version of the book. The version number matches the Foundry module release it shipped with.
 
-## 2.13.0 (November 17, 2026)
+## 2.13.0 (November 18, 2026)
 
 - **Weapons line up with SWADE.** Where a weapon has a SWADE or Science Fiction Companion counterpart, it now uses those stats. The **Combat Shotgun** is drum-fed like SWADE's Streetsweeper: 12 shots, Min Str d6, 10 lbs. The **Combat Knife** is Str+d4, like SWADE's survival knife.
 - **Inaccurate is gone.** It wasn't a SWADE quality. The Submachine Gun, Gamma Gun and Institute Laser lose it.
 - **Weapon mods that removed Inaccurate do something else:** Comfort Grip, +1 Shooting at Short Range; Full Stock, +1 Shooting at Medium Range; Marksman's Stock, +1 Shooting at Long Range; Sharpshooter's Grip, +1 Shooting when Aiming; Compensator, −2 Recoil; Gyro-Compensating Lens, ignore 2 points of Range penalties when Aiming. The Automatic Receiver's drawback is now Range −1 step.
-- **Two Hands** matches SWADE: one-handed use is at −4 and loses Reach and Parry bonuses, but the wielder keeps full Strength for damage. The **Spear** gets Parry +1 only when used two-handed, and the **Pool Cue** gains Parry +1.
-- **Revolver** is now a defined weapon quality: revolvers can't take Magazine mods.
+- **Two Hands is for melee weapons only**, as in SWADE: one-handed use is at −4 and loses Reach and Parry bonuses, but the wielder keeps full Strength for damage. The **Spear** gets Parry +1 only when used two-handed, and the **Pool Cue** gains Parry +1. Guns no longer carry it.
+- **Edges look at a gun's type, not its hands.** Weapon Specialist (Gunslinger) covers pistols and Weapon Specialist (Rifleman) covers rifles and shotguns; Sniper works with any rifle.
+- **Stocks turn pistols into rifles.** A Full Stock, Marksman's Stock or Recoil-Compensating Stock makes a pistol count as a rifle (it loses Concealed). A Sawed-Off Barrel makes a shotgun count as a pistol.
+- **Fewer weapon qualities.** Rules that only one weapon used are now written into that weapon's description: the Laser Musket's cranking, the Junk Jet's ammunition, the Tesla Rifle's arcing bolt, mines, and the Pulse grenade and mine. Arcing, Crank, Dart, Junk, Mine, Pulse, Recon and Revolver are no longer qualities. Mountable is now **Mounted Weapon**, as in the Science Fiction Companion. Revolvers still can't take Magazine mods.
+- **Mines** work as in the Science Fiction Companion: setting one takes an action, it goes off when triggered by weight, impact or its sensors, and spotting a well-hidden mine is a Notice roll at −4.
+- **Accurate and Suppressed come only from mods.** The Hunting Bow, Crossbow, Throwing Knife, Tomahawk and Syringer are no longer Suppressed; the 10mm Pistol, Silenced and the Deliverer keep their built-in suppressors. The **Recon Scope** marks your Aimed target itself: the first ally to attack it before your next turn adds +1.
 - **In Foundry** (module only):
   - Every weapon item uses one entry format: type and skill, a short description, the stats, Notes, Special rules, the Mods it takes (worked out from the module's own mod data) and how it is built and repaired, with the qualities it uses defined underneath.
-  - The Weapons chapter journal gives every weapon the same entry under its table, and lists Breaker (the Sledgehammer and Super Sledge now use it) and Revolver among the qualities. A design note explains that energy weapons follow Savage Fallout's own progression rather than SWADE's laser tables.
+  - The Weapons chapter journal gives every weapon the same entry under its table, and lists Breaker (the Sledgehammer and Super Sledge now use it) among the qualities. A design note explains that energy weapons follow Savage Fallout's own progression rather than SWADE's laser tables.
+  - Weapon items spell out the rules that used to be qualities in their Special line, and their Weapon Qualities glossary lists only real qualities. Mod items that granted or removed Two Hands, Recon or Mountable are updated, and the stocks note that they make a pistol count as a rifle.
+  - **Junk is a consumable** now, like the other ammunition, and it is the Junk Jet's ammo. Salvaging, scavenging, the stockpile and the workbench still find it by name.
   - Adversaries and the Mister Handy carry the updated weapons.
 
 ## 2.12.2 (November 17, 2026)
